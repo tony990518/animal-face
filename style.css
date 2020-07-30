@@ -274,7 +274,7 @@ input:checked + label > .knob > i:before {
 }
 
 .animal-explain{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .bar-container {
@@ -316,10 +316,11 @@ input:checked + label > .knob > i:before {
 }
 .dog-animal-title {
     color: #548dd4;
+	font-size: 2.0rem;
 }
 .dog-animal-celeb {
     color: #548dd4;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 /*      토끼        */
@@ -340,12 +341,13 @@ input:checked + label > .knob > i:before {
     border-radius: 10px;
     background-color: rgba(235, 166, 190, 1);
 }
-.rabbit-title{
+.rabbit-animal-title{
 	color: #eba6be;
+	font-size: 2.0rem;
 }
-.rabbit-celeb{
+.rabbit-animal-celeb{
 	color: #eba6be;
-	font-size : 1.2rem;
+	font-size : 1.7rem;
 }
 
 /*      공룡        */
@@ -366,12 +368,13 @@ input:checked + label > .knob > i:before {
     border-radius: 10px;
     background-color: rgba(117, 204, 84, 1);
 }
-.dino-title{
+.dino-animal-title{
 	color: #75cc54;
+	font-size: 2.0rem;
 }
-.dino-celeb{
+.dino-animal-celeb{
 	color: #75cc54;
-	font-size : 1.2rem;
+	font-size : 1.7rem;
 }
 
 /*      고양이        */
@@ -392,12 +395,13 @@ input:checked + label > .knob > i:before {
     border-radius: 10px;
     background-color: rgba(251, 176, 59, 1);;
 }
-.cat-title{
+.cat-animal-title{
 	color: #fbb03b;
+	font-size: 2.0rem;
 }
-.cat-celeb{
+.cat-animal-celeb{
 	color: #fbb03b;
-	font-size : 1.2rem;
+	font-size : 1.7rem;
 }
 
 /*      곰          */
@@ -418,12 +422,13 @@ input:checked + label > .knob > i:before {
     border-radius: 10px;
     background-color: rgba(195, 140, 102, 1);
 }
-.bear-title{
+.bear-animal-title{
 	color: #c38c66;
+	font-size: 2.0rem;
 }
-.bear-celeb{
+.bear-animal-celeb{
 	color: #c38c66;
-	font-size : 1.2rem;
+	font-size : 1.7rem;
 }
 
 /*      사슴        */
@@ -444,12 +449,13 @@ input:checked + label > .knob > i:before {
     border-radius: 10px;
     background-color: rgba(117, 204, 84, 1);
 }
-.deer-title{
+.deer-animal-title{
 	color: #75cc5433;
+	font-size: 2.0rem;
 }
-.deer-celeb{
+.deer-animal-celeb{
 	color: #75cc5433;
-	font-size : 1.2rem;
+	font-size : 1.7rem;
 }
 
 /*      여우        */
@@ -470,10 +476,11 @@ input:checked + label > .knob > i:before {
     border-radius: 10px;
     background-color: rgba(49, 132, 155, 1);
 }
-.fox-title{
+.fox-animal-title{
 	color: #31849b33;
+	font-size: 2.0rem;
 }
-.fox-celeb{
+.fox-animal-celeb{
 	color: #31849b33;
-	font-size : 1.2rem;
+	font-size : 1.7rem;
 }
