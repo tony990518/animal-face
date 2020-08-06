@@ -145,14 +145,16 @@ body {
 		font-size: 2rem;
 	}
 }
-.youtube-link {
+
+
+/*.youtube-link {
 	font-size: 1.3rem;
 	line-height: 1.71;
 	text-align: center;
 	color: #f73737;
 	text-decoration: underline;
 } /*hover는
-마우스 올렸을때, 올렸을때 일치하게 만듬*/
+마우스 올렸을때, 올렸을때 일치하게 만듬
 .youtube-link:hover {
 	font-size: 1.3rem;
 	line-height: 1.71;
@@ -162,7 +164,9 @@ body {
 }
 .youtube-icon {
 	width: 6%;
-}
+}*/
+
+
 .upload-text {
 	/*업로드 박스 안쪽 글씨*/
 	font-size: 1.5rem;
@@ -450,11 +454,11 @@ input:checked + label > .knob > i:before {
     background-color: rgba(117, 204, 84, 1);
 }
 .deer-animal-title{
-	color: #75cc5433;
+	color: #75cc54;
 	font-size: 2.0rem;
 }
 .deer-animal-celeb{
-	color: #75cc5433;
+	color: #75cc54;
 	font-size : 1.7rem;
 }
 
@@ -477,10 +481,14 @@ input:checked + label > .knob > i:before {
     background-color: rgba(49, 132, 155, 1);
 }
 .fox-animal-title{
-	color: #31849b33;
+	color: rgba(49, 132, 155, 1);
 	font-size: 2.0rem;
 }
 .fox-animal-celeb{
-	color: #31849b33;
+	color: rgba(49, 132, 155, 1);
 	font-size : 1.7rem;
+}
+
+.animal-image{
+	width: 2%;
 }
