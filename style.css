@@ -355,7 +355,7 @@ input:checked + label > .knob > i:before {
 }
 
 /*      공룡        */
-.dino-box{
+.dinosaur-box{
     position: absolute;
     top: 0;
     left: 0;
@@ -364,7 +364,7 @@ input:checked + label > .knob > i:before {
     width: 100%;
     background-color: rgba(117, 204, 84, 0.2);
 }
-.dino-bar{
+.dinosaur-bar{
     position: absolute;
     top: 0;
     left: 0;
@@ -372,11 +372,11 @@ input:checked + label > .knob > i:before {
     border-radius: 10px;
     background-color: rgba(117, 204, 84, 1);
 }
-.dino-animal-title{
+.dinosaur-animal-title{
 	color: #75cc54;
 	font-size: 2.0rem;
 }
-.dino-animal-celeb{
+.dinosaur-animal-celeb{
 	color: #75cc54;
 	font-size : 1.7rem;
 }
