@@ -1,6 +1,6 @@
 /*업로드 이미지 */
 body {
-  font-family: 'Jua', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   background-color: #ffffff;
   box-sizing: border-box;
   color: #35465d;
@@ -36,6 +36,10 @@ body {
 	border: 0; 
 	transition: all .2s ease; 
 } 버튼 기능 제외 */
+.btn{
+	    padding: .375rem 1.5rem;
+}
+
 
 .file-upload-content {
 	display: none;
@@ -86,12 +90,12 @@ body {
 }
 .try-again-btn {
 	border-radius: 40px;
-	border: solid 1.5px #35465d;
+	border: solid 0.6rem #35465d;
 	background-color: #35465d;
 }
 .try-again-text {
 	display: block;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	text-align: center;
 	color: #ffffff;
 	padding: 4px 15px;
@@ -108,9 +112,15 @@ body {
 } /*끝 업로드 이미지 */
 .nav-distance {
 	/*제목 위치 퍼센티지로 설정*/
-	padding: 2.1% 7.7%;
+	padding: 2.1% 10.7%;
 }
+.navbar{
+	font-size: 1.5rem;
+}
+
+
 .navbar-light .navbar-brand {
+	font-size: 2.1rem;
 	line-height: 1.68;
 	text-align: left;
 	color: #35465d;
@@ -278,7 +288,7 @@ input:checked + label > .knob > i:before {
 }
 
 .animal-explain{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .bar-container {
@@ -291,6 +301,7 @@ input:checked + label > .knob > i:before {
 }
 
 .animal-label {
+	font-size : 1.4rem;
     width: 20%;
     text-align: left;    /**/
     height: 2rem;
