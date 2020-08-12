@@ -36,6 +36,12 @@
 		/>
 		<!--폰트 가져오기 from 구글-->
 
+		<!--메뉴 햄버거 가져오기 FROM CODEPEN-->
+		<link
+			rel="stylesheet"
+			href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+		/>
+
 		<!--공유버튼 생성-->
 		<!-- Go to www.addthis.com/dashboard to customize your tools -->
 		<script
@@ -48,8 +54,46 @@
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light nav-distance">
 			<a class="navbar-brand navbar-nav" href="#">動物相測驗</a>
+
+			<input id="menu_trigger" type="checkbox" />
+			<div class="menuicon" style="position: absolute; right: 7rem; bottom: 2rem;">
+				<label for="menu_trigger">
+					<div class="icon">
+						<div class="bar first"></div>
+						<div class="bar second"></div>
+						<div class="bar third"></div>
+					</div>
+				</label>
+			</div>
+			<div class="menu">
+				<label for="menu_trigger">
+					<div class="bar first"></div>
+					<div class="bar second"></div>
+				</label>
+				<ul>
+					<li>
+						<a href="#"><i class="fa fa-home"></i>Home</a>
+					</li>
+					<li>
+						<a
+							href="https://www.instagram.com/explore/tags/%E5%8B%95%E7%89%A9%E7%9B%B8/"
+							target="_blank"
+							><i class="fa fa-heart"></i>Portfolio</a
+						>
+					</li>
+					<li>
+						<a href="http://simonledunois.fr" target="_blank"
+							><i class="fa fa-user"></i>About</a
+						>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--<nav class="navbar navbar-expand-lg navbar-light nav-distance">
+			<a class="navbar-brand navbar-nav" href="#">動物相測驗</a>
 			<form class="form-inline">
-				<button class="btn btn-outline-success d-flex align-items-center" type="button"  onclick="location.href='http://naver.com'">
+				<button class="btn btn-outline-success d-flex align-items-center" type="button"  onclick="location.href='#'">
 					<img
 						src="img/dog.png"
 						width="30"
@@ -58,9 +102,9 @@
 						alt=""
 					/>celleb
 				</button>
-			</form>
+			</form>-->
 
-			<!--<button
+		<!--<button
 				class="navbar-toggler"
 				type="button"
 				data-toggle="collapse"
@@ -72,7 +116,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>-->
 
-			<!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="">
 					<li class="nav-item active">
 						<a class="nav-link" href="/blog"> 明星結果 <span class="sr-only"></span></a>
@@ -105,7 +149,7 @@
 						>
 					</li>
 				</ul>-->
-			<!--<form class="form-inline my-2 my-lg-0">
+		<!--<form class="form-inline my-2 my-lg-0">
 					<input
 						class="form-control mr-sm-2"
 						type="search"
@@ -117,7 +161,7 @@
 					</button>
 				</form>
 			</div>-->
-		</nav>
+		<!--</nav>-->
 		<!--끝 상단 메뉴 navbar-->
 
 		<section class="section">
@@ -210,6 +254,13 @@
 						onclick="window.location.reload();"
 					>
 						<span class="try-again-text">換張照片再試試</span>
+					</button>
+					<button
+						type="button p-2"
+						class="instagram-btn"
+						onclick="window.open('https://www.instagram.com/explore/tags/%E5%8B%95%E7%89%A9%E7%9B%B8/')"
+					>
+						<span class="instagram-text">ig</span>
 					</button>
 					<!---
 					<button onclick="partShot()">partShot</button>
