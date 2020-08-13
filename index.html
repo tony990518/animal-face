@@ -37,11 +37,9 @@
 		<!--폰트 가져오기 from 구글-->
 
 		<!--메뉴 햄버거 가져오기 FROM CODEPEN-->
-		<link
-			rel="stylesheet"
-			href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-		/>
-
+		
+		
+		
 		<!--공유버튼 생성-->
 		<!-- Go to www.addthis.com/dashboard to customize your tools -->
 		<script
@@ -52,116 +50,28 @@
 		<script src="js/html2canvas.js"></script>-->
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light nav-distance">
-			<a class="navbar-brand navbar-nav" href="#">動物相測驗</a>
+		<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">動物相測驗</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://www.instagram.com/explore/tags/%E5%8B%95%E7%89%A9%E7%9B%B8/" target ="_blank">Celleb<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://namu.wiki/w/%EB%8F%99%EB%AC%BC%EC%83%81"  target ="_blank">什麼叫動物相?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
 
-			<input id="menu_trigger" type="checkbox" />
-			<div class="menuicon" style="position: absolute; right: 7rem; bottom: 2rem;">
-				<label for="menu_trigger">
-					<div class="icon">
-						<div class="bar first"></div>
-						<div class="bar second"></div>
-						<div class="bar third"></div>
-					</div>
-				</label>
-			</div>
-			<div class="menu">
-				<label for="menu_trigger">
-					<div class="bar first"></div>
-					<div class="bar second"></div>
-				</label>
-				<ul>
-					<li>
-						<a href="#"><i class="fa fa-home"></i>Home</a>
-					</li>
-					<li>
-						<a
-							href="https://www.instagram.com/explore/tags/%E5%8B%95%E7%89%A9%E7%9B%B8/"
-							target="_blank"
-							><i class="fa fa-heart"></i>Portfolio</a
-						>
-					</li>
-					<li>
-						<a href="http://simonledunois.fr" target="_blank"
-							><i class="fa fa-user"></i>About</a
-						>
-					</li>
-				</ul>
-			</div>
-		</nav>
+    </ul>
+  </div>
+</nav>
 
-		<!--<nav class="navbar navbar-expand-lg navbar-light nav-distance">
-			<a class="navbar-brand navbar-nav" href="#">動物相測驗</a>
-			<form class="form-inline">
-				<button class="btn btn-outline-success d-flex align-items-center" type="button"  onclick="location.href='#'">
-					<img
-						src="img/dog.png"
-						width="30"
-						height="30"
-						class="d-inline-block align-top mr-2"
-						alt=""
-					/>celleb
-				</button>
-			</form>-->
-
-		<!--<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>-->
-
-		<!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="">
-					<li class="nav-item active">
-						<a class="nav-link" href="/blog"> 明星結果 <span class="sr-only"></span></a>
-					</li>
-					<!--<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a
-							class="nav-link dropdown-toggle"
-							href="#"
-							id="navbarDropdown"
-							role="button"
-							data-toggle="dropdown"
-							aria-haspopup="true"
-							aria-expanded="false"
-						>
-							Dropdown
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-							>Disabled</a
-						>
-					</li>
-				</ul>-->
-		<!--<form class="form-inline my-2 my-lg-0">
-					<input
-						class="form-control mr-sm-2"
-						type="search"
-						placeholder="Search"
-						aria-label="Search"
-					/>
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-						Search
-					</button>
-				</form>
-			</div>-->
-		<!--</nav>-->
+		
 		<!--끝 상단 메뉴 navbar-->
 
 		<section class="section">
@@ -255,22 +165,17 @@
 					>
 						<span class="try-again-text">換張照片再試試</span>
 					</button>
+					
+					
 					<button
 						type="button p-2"
 						class="instagram-btn"
 						onclick="window.open('https://www.instagram.com/explore/tags/%E5%8B%95%E7%89%A9%E7%9B%B8/')"
 					>
-						<span class="instagram-text">ig</span>
+						
+						<span class="instagram-text"><img src="img/instagram.png" alt="" class= "instagram"/>&ensp; instagram</span>
 					</button>
-					<!---
-					<button onclick="partShot()">partShot</button>
-					<canvas
-						id="save"
-						width="900"
-						height="600"
-						style="border: 1px solid #d3d3d3;"
-					></canvas>
-					-->
+
 				</div>
 			</div>
 		</div>
@@ -451,35 +356,35 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
 							resultExplain =
 								'情感豐富的你，總是讓人對你充滿好感！</br>因為親切又活潑的個性，讓你無論身在何處都會人氣爆棚！</br>而且你非常愛撒嬌和搞笑，所以你的另一半會覺得你特別的可愛呢～</br>但是如果另一半減少了對你的關心，</br>你也會像小狗狗一樣展露出悶悶不樂、孤獨的樣子唷！';
 							resultCeleb =
-								'강아지상 연예인: 박보영, 아이유, 윤승아, 민아(걸스데이), 한지민';
+								'狗狗相 藝人 : 夏于喬、Ella、Janet';
 							break;
 						case 'cat':
 							resultTitle = '傲嬌又迷人的 貓咪相';
 							resultExplain =
 								'高傲的你給人的第一印象看似冷酷，卻因為散發著奇妙的魅力而總是人氣滿滿！</br>雖然有著世界第一強的自尊心，但是你的內心其實還是渴望被關注的～</br>想要被另一半關心時，也會偷偷地撒嬌呢！這樣冷酷而傲嬌的個性，不斷地給另一半帶來心動與驚喜的你，和貓咪一樣唷！';
 							resultCeleb =
-								'고양이상 연예인: 안소희(원더걸스), 오연서, 한예슬, 이성경, 이효리';
+								'貓咪相 藝人 : 林心如、曾之喬、鄧紫棋';
 							break;
 						case 'rabbit':
 							resultTitle = '天真浪漫的 兔子相';
 							resultExplain =
 								'活潑可愛的你，是會給周圍的人帶來歡笑與幸福的開心果！</br>因為你好奇心強、活潑的個性，加上純真又楚楚可憐的外貌，會激發另一半想保護你的本能～</br>你本身就自帶清新的氣息，所以即使不特別撒嬌，另一半也會覺得你非常可愛唷！';
 							resultCeleb =
-								'토끼상 연예인: 수지, 나연(트와이스), 예린(여자친구), 한승연(카라), 문채원';
+								'兔子相 藝人 : 安心亞、茵聲、家寧';
 							break;
 						case 'deer':
 							resultTitle = '溫順而優雅的 鹿相';
 							resultExplain =
 								'你擁有著和鹿一樣沉靜的性格及清澈明亮的氛圍，</br>炯炯有神的雙眼是你最大的標誌，總是帶著溫暖且溫順的眼神。</br>雖然羞於表達愛意的你，對於另一半來說充滿了神秘感，</br>但是你溫暖而成熟的性格，卻可以緊緊抓住另一半的心唷！';
 							resultCeleb =
-								'사슴상 연예인: 윤아(소녀시대), 이연희, 고아라, 문근영, 정유미(부산행 배우)';
+								'鹿相 藝人: 張鈞甯、賈靜雯、Hebe、滴妹;
 							break;
 						case 'fox':
 							resultTitle = '性感而機靈的 狐狸相';
 							resultExplain =
 								'你擁有著像狐狸一般迷人而性感魅力！</br>不僅有優雅的外貌，還有著出眾的機智性格，</br>加上強大的社交能力，讓你無論到哪裡都會成為備受矚目的主角！</br>雖然你對另一半會積極地表達愛意，但同時你也是個欲情故縱的高手～</br>常常讓另一半魂牽夢縈、被你迷得團團轉的呢！';
 							resultCeleb =
-								'여우상 연예인: 경리(나인뮤지스), 예지(있지), 한혜진(모델), 헤이즈, 지연(티아라)';
+								'狐狸相 藝人 : 蔡依林、林志玲、隋棠';
 							break;
 						default:
 							resultTitle = '알수없음';
@@ -630,4 +535,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.-->
+	
+	<!--아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon"> www.flaticon.com</a>-->
 </html>
