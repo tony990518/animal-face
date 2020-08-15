@@ -66,17 +66,37 @@ body {
 	padding: 20px;
 }
 .try-again-btn {
+	width : 12rem;
+	height: 3rem;
 	border-radius: 40px;
-	/*border: solid 0.6rem #35465d;*/
-	background-color: #35465d;
+	border: solid 0.6rem #f75151;
+	background-color: #f75151;
 }
 .try-again-text {
 	display: block;
 	font-size: 1.3rem;
 	text-align: center;
 	color: #ffffff;
-	padding: 4px 15px;
 }
+
+.instagram-btn {
+	width: 12rem;
+	height: 3rem;
+	border-radius: 40px;
+	border: solid 0.6rem #a0c7fb;
+	background-color: #a0c7fb;
+}
+.instagram-text {
+	display: block;
+	font-size: 1.3rem;
+	text-align: center;
+	color: #ffffff;
+}
+.instagram{
+    width: 19%;
+    padding-bottom: 4%;
+}
+
 .remove-image:hover {
 	background: #c13b2a;
 	color: #ffffff;
@@ -109,7 +129,7 @@ body {
 
 .section {
 	/*메뉴바와 제목 사이를 띄움*/
-	margin-top: 60px;
+	margin-top: 1rem;
 }
 .title {
 	/*제목 폰트 설정*/
@@ -133,57 +153,7 @@ body {
 	}
 }
 
-.instagram-btn{
-	border-radius: 40px;
-	/*border: solid 0.6rem #35465d;*/
-	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-background-size: 1800% 1800%;
 
--webkit-animation: rainbow 18s ease infinite;
--z-animation: rainbow 18s ease infinite;
--o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;}
-
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@keyframes rainbow { 
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-
-
-.instagram-text{
-	display: block;
-	font-size: 1.3rem;
-	text-align: center;
-	color: #ffffff;
-	padding: 4px 15px;
-}
-
-.instagram{
-	width: 2rem;
-}
-
-.instagram-btn:hover{
-	background: #c13b2a;
-	color: #ffffff;
-	transition: all 0.2s ease;
-	cursor: pointer;
-}
 /*.youtube-link {
 	font-size: 1.3rem;
 	line-height: 1.71;
