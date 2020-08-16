@@ -69,8 +69,8 @@ body {
 	width : 12rem;
 	height: 3rem;
 	border-radius: 40px;
-	border: solid 0.6rem #f75151;
-	background-color: #f75151;
+	border: solid 0.6rem #4892c1;
+	background-color: #4892c1;
 }
 .try-again-text {
 	display: block;
@@ -83,8 +83,8 @@ body {
 	width: 12rem;
 	height: 3rem;
 	border-radius: 40px;
-	border: solid 0.6rem #a0c7fb;
-	background-color: #a0c7fb;
+	border: solid 0.6rem #4892c1;
+	background-color: #4892c1;
 }
 .instagram-text {
 	display: block;
