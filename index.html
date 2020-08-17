@@ -275,7 +275,7 @@
 
 			let URL;
 			const urlMale = 'https://teachablemachine.withgoogle.com/models/o9D1N5TN/'; //남자 데이터
-			const urlFemale = 'https://teachablemachine.withgoogle.com/models/bB3YHn5r/'; //여자 데이터
+			const urlFemale = 'https://teachablemachine.withgoogle.com/models/KFbPbwjY4/'; //여자 데이터
 			let model, webcam, labelContainer, maxPredictions;
 
 			// Load the image model and setup the webcam
@@ -383,6 +383,12 @@
 								'你擁有著像狐狸一般迷人而性感魅力！</br>不僅有優雅的外貌，還有著出眾的機智性格，</br>加上強大的社交能力，讓你無論到哪裡都會成為備受矚目的主角！</br>雖然你對另一半會積極地表達愛意，但同時你也是個欲情故縱的高手～</br>常常讓另一半魂牽夢縈、被你迷得團團轉的呢！';
 							resultCeleb = '狐狸相 藝人 : 蔡依林、林志玲、隋棠';
 							break;
+						case 'koala':
+							resultTitle = 'koala';
+							resultExplain =
+								'koala is koala';
+							resultCeleb = 'koala : 愛離沙沙';
+							break;
 						default:
 							resultTitle = '알수없음';
 							resultExplain = '';
@@ -448,6 +454,9 @@
 						case 'fox':
 							labelTitle = '狐狸相';
 							break;
+						case 'koala':
+							labelTitle = '無尾熊相';
+							break;
 						default:
 							labelTitle = '無法判斷';
 					} /*<img src='"+ image/+prediction[i].className.svg/ +"'>*/
@@ -484,6 +493,19 @@
 				}
 			}*/
 		</script>
+			<footer class="footer pt-5 container d-flex justify-content-center">
+        <div>
+            <p>© KIM's TW 2020. All Rights Reserved. </p>
+            <ul id="moreInfo" class="list-inline d-flex justify-content-center">
+                <li class="list-inline-item">
+                    <a href="privacy.html">Privacy</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 		<!--		<script>
 						function partShot() {

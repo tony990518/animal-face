@@ -7,7 +7,7 @@ body {
 .file-upload {
 	background-color: #ffffff;
 	margin: 0 auto;
-	padding: 15% 0%;
+	padding: 7% 0%;
 	border-radius: 10px;
 	border: solid 1.5px #f6f7fa;
 	background-color: #f6f7fa;
@@ -490,6 +490,37 @@ input:checked + label > .knob > i:before {
 	font-size : 1.7rem;
 }
 
+.koala-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(49, 132, 155, 0.2);
+}
+.koala-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(49, 132, 155, 1);
+}
+.koala-animal-title{
+	color: rgba(49, 132, 155, 1);
+	font-size: 2.0rem;
+}
+.koala-animal-celeb{
+	color: rgba(49, 132, 155, 1);
+	font-size : 1.7rem;
+}
+
 .animal-image{
 	width: 2%;
+}
+
+.top-pic{
+	display: block;
+	margin: 0 auto;
 }
