@@ -10,7 +10,8 @@ body {
 	padding: 7% 0%;
 	border-radius: 10px;
 	border: solid 1.5px #f6f7fa;
-	background-color: #f6f7fa;
+	background-image: url('img/pattern.png');
+	background-size : cover;
 } 
 
 .btn{
@@ -113,17 +114,21 @@ body {
 }
 .navbar{
 	font-size: 1.5rem;
+	position: sticky; 
+	top: 0;
+	background-color: #FFE228;
+	z-index: 1;
 }
 
 .navbar-light .navbar-brand {
 	font-size: 2.1rem;
 	line-height: 1.68;
-	text-align: left;
+	text-align: center;
 	color: #35465d;
 } /*위에 기존에 컬러 설정이
 됐는데 클래스가 두개여서 밀림 그래서 이것도 클래스를 두개 해줌으로서 씹히지 않음*/
 .navbar-light .navbar-toggler {
-	border-color: #ffffff;
+	border-color: #FFE228;
 } /*햄버거바 테두리를 없애려고 클래스 자체를 없애면 기능적
 손상우려 그래서 그냥 덮어 씌움*/
 
@@ -524,23 +529,18 @@ input:checked + label > .knob > i:before {
 	display: block;
 	margin: 0 auto;
 }
-.privacy-box {
-	background-color: #ffffff;
-	margin: 0 auto;
-	padding: 2% 0%;
-	border-radius: 10px;
-	border: solid 1.5px #f6f7fa;
-	background-color: #f6f7fa;
-}
+
 .about-box {
 	background-color: #ffffff;
 	margin: 0 auto;
 	padding: 2% 0%;
 	border-radius: 10px;
-	border: solid 1.5px #f6f7fa;
-	background-color: #f6f7fa;
+	border: solid 1.5px #ffffff;
 } 
 
+.logo2{
+	width:10%;
+}
 .text3 {
     font-size: 1.9vh;
     margin-bottom: 1.2vh;
@@ -549,3 +549,4 @@ input:checked + label > .knob > i:before {
 .border {
     border: 4px solid #dee2e6!important;
 }
+

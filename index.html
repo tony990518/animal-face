@@ -25,7 +25,7 @@
 		/>
 		<meta property="og:description" content="測測你的長相是哪一種動物" />
 		<!--<meta property = "og:image" content ="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fc0eq42%2FbtqCQpiFhFn%2F8KPaOP9q8PXpJFRL7if55K%2Fimg.jpg"/>-->
-		<meta property="og:image" content="img/thumb.JPG" />
+		<meta property="og:image" content="img/preview.png" />
 		<!-- Bootstrap CSS -->
 		<link
 			rel="stylesheet"
@@ -56,11 +56,18 @@
 			type="text/javascript"
 			src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f0ab2b8f406e364"
 		></script>
+		<style>
+			html {
+				scroll-behavior: smooth;
+			}
+		</style>
 		<!--결과캡쳐 자바
 		<script src="js/html2canvas.js"></script>-->
 	</head>
 	<body>
-		<nav class="navbar navbar-light">
+
+		<header class="navbar navbar-light d-flex justify-content-between" >
+			<img src="img/logo.png" alt="" class="logo2" />
 			<a class="navbar-brand" href="index.html">動物相測驗</a>
 			<button
 				class="navbar-toggler"
@@ -94,14 +101,18 @@
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about.html" style="text-align: right;">About us</a>
+						<a class="nav-link" href="about.html" style="text-align: right;"
+							>About us</a
+						>
 					</li>
 				</ul>
 			</div>
-		</nav>
-
+		</header>
 		<!--끝 상단 메뉴 navbar-->
-
+				<div class="main " id="section1" style="height: 600px; 	background-color:#ffc107;">
+			<a href="#section2" class="text-align-center">Let's Start</a>
+		</div>
+		<div style="height : 83px;" id="section2"></div>
 		<section class="section">
 			<!--타이틀 만들기-->
 			<h1 class="title">臉部辨識人工智能動物相測驗</h1>
@@ -118,6 +129,7 @@
 		</section> -->
 		<!--성별선택   위치 bootstrap 이용해서 센터로 이동 d-flex justify-content-center-->
 		<h5 class="pb-2 d-flex justify-content-center">首先，請選擇性別</h5>
+		<div class ="Gender" style="z-index:2;">
 		<section class="pb-4 d-flex justify-content-center">
 			<p class="d-flex align-items-center pr-3">女</p>
 			<input type="checkbox" id="gender" />
@@ -126,7 +138,7 @@
 			</label>
 			<p class="d-flex align-items-center pl-3">男</p>
 		</section>
-
+		</div>
 		<!--<button type="button" onclick="init()">Start</button>-->
 		<!--모델을 불러오는 버튼      사진을 올리면 자동으로 모델을 불러오기위해 init을 read함수에 넣음-->
 		<!--<button type="button" onclick="predict()">예측</button>-->
@@ -293,7 +305,7 @@
 				maxPredictions = model.getTotalClasses(); //model의 토탈 크래스= 5 => maxPredictions = 5
 				labelContainer = document.getElementById('label-container');
 
-				for (let i = 0; i < maxPredictions; i++) {
+				for (let i = 0; i < 5; i++) {
 					//i가 0~4까지 순환++
 					var element = document.createElement('div'); //div 태그를 element에 생성
 					element.classList.add('d-flex'); //element의 div 태그에 d-flex속성 넣기 (사진 참조)
@@ -385,8 +397,7 @@
 							break;
 						case 'koala':
 							resultTitle = 'koala';
-							resultExplain =
-								'koala is koala';
+							resultExplain = 'koala is koala';
 							resultCeleb = 'koala : 愛離沙沙';
 							break;
 						default:
@@ -414,7 +425,7 @@
 				//$().html = 태그안쪽의 내용을 넣는 jquery문법
 
 				var barWidth; //바 퍼센트길이 변수 i 가 0~4까지 돌면서
-				for (let i = 0; i < maxPredictions; i++) {
+				for (let i = 0; i < 5; i++) {
 					if (prediction[i].probability.toFixed(2) > 0.1) {
 						//퍼센트가 10%(0.1)보다 클때
 						barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%'; //그 퍼센트 그대로 output(0.21->21%)
@@ -493,19 +504,19 @@
 				}
 			}*/
 		</script>
-			<footer class="footer pt-5 container d-flex justify-content-center">
-        <div>
-            <p>© KIM's TW 2020. All Rights Reserved. </p>
-            <ul id="moreInfo" class="list-inline d-flex justify-content-center">
-                <li class="list-inline-item">
-                    <a href="#">Privacy</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+		<footer class="footer pt-5 container d-flex justify-content-center">
+			<div>
+				<p>© KIM's TW 2020. All Rights Reserved.</p>
+				<ul id="moreInfo" class="list-inline d-flex justify-content-center">
+					<li class="list-inline-item">
+						<a href="privacy.html">Privacy</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="about.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 
 		<!--		<script>
 						function partShot() {
