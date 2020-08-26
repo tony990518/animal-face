@@ -65,8 +65,7 @@
 		<script src="js/html2canvas.js"></script>-->
 	</head>
 	<body>
-
-		<header class="navbar navbar-light d-flex justify-content-between" >
+		<header class="navbar navbar-light d-flex justify-content-between">
 			<img src="img/logo.png" alt="" class="logo2" />
 			<a class="navbar-brand" href="index.html">動物相測驗</a>
 			<button
@@ -109,10 +108,33 @@
 			</div>
 		</header>
 		<!--끝 상단 메뉴 navbar-->
-				<div class="main " id="section1" style="height: 600px; 	background-color:#ffc107;">
-			<a href="#section2" class="text-align-center">Let's Start</a>
+		<div
+			class="main"
+			style="background-size: contain; background-color: #ffe228; text-align: center;"
+		>
+			<img src="img/firstpage.png" alt="" class="firstpage mb-4" />
+			<h2 style="font-size: 1.8rem; padding: 2%;">我的臉與哪一種動物相似呢?</h2>
+			<div class="align-center">
+				<h1 style="font-size: 2.1rem; color: #4965a6; display: inline-block;">
+					AI臉部是辨識，測出你的
+				</h1>
+				<h1 style="font-size: 2.1rem; color: #eb6519; display: inline-block;">動物相</h1>
+				<h1 style="font-size: 2.1rem; color: #4965a6; display: inline-block;">!</h1>
+			</div>
+			<img
+				src="img/arrow.png"
+				alt=""
+				style="
+					display: block;
+					margin: 0px auto;
+					width: 4rem;
+					padding-top: 6rem;
+					padding-bottom: 1rem;
+				"
+			/>
+			<a href="#section2" style="font-size: 1.5rem; line-height: 5rem;">請往下滑</a>
 		</div>
-		<div style="height : 83px;" id="section2"></div>
+		<div style="height: 83px;" id="section2"></div>
 		<section class="section">
 			<!--타이틀 만들기-->
 			<h1 class="title">臉部辨識人工智能動物相測驗</h1>
@@ -129,15 +151,15 @@
 		</section> -->
 		<!--성별선택   위치 bootstrap 이용해서 센터로 이동 d-flex justify-content-center-->
 		<h5 class="pb-2 d-flex justify-content-center">首先，請選擇性別</h5>
-		<div class ="Gender" style="z-index:2;">
-		<section class="pb-4 d-flex justify-content-center">
-			<p class="d-flex align-items-center pr-3">女</p>
-			<input type="checkbox" id="gender" />
-			<label for="gender">
-				<span class="knob"><i></i></span>
-			</label>
-			<p class="d-flex align-items-center pl-3">男</p>
-		</section>
+		<div class="Gender" style="z-index: 2;">
+			<section class="pb-4 d-flex justify-content-center">
+				<p class="d-flex align-items-center pr-3">女</p>
+				<input type="checkbox" id="gender" />
+				<label for="gender">
+					<span class="knob"><i></i></span>
+				</label>
+				<p class="d-flex align-items-center pl-3">男</p>
+			</section>
 		</div>
 		<!--<button type="button" onclick="init()">Start</button>-->
 		<!--모델을 불러오는 버튼      사진을 올리면 자동으로 모델을 불러오기위해 init을 read함수에 넣음-->
@@ -148,7 +170,7 @@
 			class="jsbin"
 			src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
 		></script>
-		<div class="container file-upload">
+		<div class="file-upload">
 			<!--	<button 
 				class="file-upload-btn"
 				type="button"
@@ -504,7 +526,7 @@
 				}
 			}*/
 		</script>
-		<footer class="footer pt-5 container d-flex justify-content-center">
+		<footer class="footer pt-5 mt-5 container d-flex justify-content-center">
 			<div>
 				<p>© KIM's TW 2020. All Rights Reserved.</p>
 				<ul id="moreInfo" class="list-inline d-flex justify-content-center">
