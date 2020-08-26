@@ -559,4 +559,5 @@ input:checked + label > .knob > i:before {
 }
 .file-save{
 	background-color: #ffffffb5;
+	margin: 1.5rem;
 }
