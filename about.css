@@ -547,95 +547,29 @@ input:checked + label > .knob > i:before {
 	margin-left:1.5rem;
 }
 
-input[id*="answer"]{
-	display:none;
+div {
+ background-color: #fefefe;
+  color: #444;
+  width: 50%;
+  text-align: center;
+  font-family: arial;
+  margin: 0 auto;
+  padding: 10px;
 }
 
-input[id*="answer"] +label{
-    display: block;
-    color: #232188;
-    font-size: 4rem;
-    background: #FFE228;
-    cursor: pointer;
-    position: relative;
-    margin: 0 auto;
-    box-shadow: none;
-    width: 70%;
-    height: 10rem;
+div:not(:last-of-type) {
+ margin-bottom: 30px;   
 }
 
-input[id*="answer"] +label em{
-position: absolute;
-    width: 27px;
-    height: 129px;
-    margin-top: 11px;
-    display: inline-block;
-    margin-left: -37px;
-    background-image: url(img/rabbit_orange.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+div:first-of-type {
+  margin-top: 40px;
 }
 
-
-input[id*= "answer"] +label+div{
-	max-height:0;
-	transition: all .35s;
-	overflow:hidden;
-	background:#ebf8ff;
-	font-size:11px;
+div:last-of-type {
+  margin-bottom: 40px;
 }
 
-input[id*="answer"] +label+ div p{
-	display:inline-block;
-	padding:20px;
-}
-
-input[id*="answer"]:checked+label{
-	color: #eb6519;
-		transition: all .35s;
-}
-
-input[id*="answer"]:checked+label+div{
-	max-height:40rem;
-}
-
-input[id*="answer"]:checked+label em{
-	background-image: url(img/rabbit_blue.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-		transition: all .35s;
-}
-
-input#answer02 +label em{
-position: absolute;
-    width: 33px;
-    height: 129px;
-    margin-top: 11px;
-    display: inline-block;
-    margin-left: -37px;
-    background-image: url(img/dog_orange.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-input#answer02:checked+label em{
-	background-image: url(img/dog_blue.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-		transition: all .35s;
-}
-/**details { border-color: #ffffff; }
-
-details[open] summary ~ * {
-  animation: sweep .3s ease-in-out;
-}
-
-@keyframes sweep {
-  0%    {opacity: 0; margin-top: -10px;}
-  100%  {opacity: 1; margin-top: 0px;}
-}
-
-details > summary::-webkit-details-marker {display: none}
-
-:focus{
-	outline: -webkit-focus-ring-color auto 0px;
+p {
+ display: none;
+ padding-bottom: 20px;
 }
