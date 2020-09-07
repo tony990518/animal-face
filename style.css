@@ -553,27 +553,30 @@ input[id*="answer"]{
 
 input[id*="answer"] +label{
     display: block;
-    color: #232188;
-    font-size: 4rem;
+    color: #4965A4;
+    font-size: 2.9rem;
     background: #FFE228;
     cursor: pointer;
     position: relative;
     margin: 0 auto;
     box-shadow: none;
     width: 70%;
-    height: 10rem;
+    height: 15rem;
+    padding-top: 4.5rem;
+    padding-left: 4rem;
 }
 
 input[id*="answer"] +label em{
-position: absolute;
-    width: 27px;
-    height: 129px;
-    margin-top: 11px;
+    position: absolute;
+    width: 2.625rem;
+    height: 12.375rem;
+    margin-top: -3.813rem;
     display: inline-block;
-    margin-left: -37px;
+    margin-left: -4rem;
     background-image: url(img/rabbit_orange.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    transition: all .35s;
 }
 
 
@@ -581,7 +584,7 @@ input[id*= "answer"] +label+div{
 	max-height:0;
 	transition: all .35s;
 	overflow:hidden;
-	background:#ebf8ff;
+	background:#ffffff;
 	font-size:11px;
 }
 
@@ -606,36 +609,71 @@ input[id*="answer"]:checked+label em{
 		transition: all .35s;
 }
 
+input#answer02 +label{
+    display: block;
+    color: #4965A4;
+    font-size: 2.5rem;
+    background: #FFE228;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: none;
+    width: 70%;
+    height: 15rem;
+    padding-top: 4.5rem;
+}
+
 input#answer02 +label em{
-position: absolute;
-    width: 33px;
-    height: 129px;
-    margin-top: 11px;
+    position: absolute;
+    width: 2.8rem;
+    height: 12.375rem;
+    margin-top: -3.813rem;
     display: inline-block;
-    margin-left: -37px;
-    background-image: url(img/dog_orange.png);
+    margin-left: -4.4rem;
+    background-image: url(img/cat_orange.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    transition: all .35s;
 }
 input#answer02:checked+label em{
-	background-image: url(img/dog_blue.png);
+	background-image: url(img/cat_blue.png);
     background-size: 100%;
     background-repeat: no-repeat;
 		transition: all .35s;
 }
-/**details { border-color: #ffffff; }
 
-details[open] summary ~ * {
-  animation: sweep .3s ease-in-out;
+input#answer03 +label{
+display: block;
+    color: #4965A4;
+    font-size: 2.6rem;
+    background: #FFE228;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: none;
+    width: 70%;
+    height: 15rem;
+    padding-top: 2.3rem;
+    padding-left: 4rem;
 }
 
-@keyframes sweep {
-  0%    {opacity: 0; margin-top: -10px;}
-  100%  {opacity: 1; margin-top: 0px;}
+input#answer03 +label em{
+position: absolute;
+    width: 8.313rem;
+    height: 8rem;
+    margin-top: -1.5rem;
+    display: inline-block;
+    margin-left: -8.563rem;
+    background-image: url(img/los2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10rem;
 }
 
-details > summary::-webkit-details-marker {display: none}
-
-:focus{
-	outline: -webkit-focus-ring-color auto 0px;
+input#answer03:checked+label em{
+	background-image: url(img/jocoding.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+		transition: all .35s;
 }
+
