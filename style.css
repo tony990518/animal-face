@@ -307,6 +307,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(27, 175, 234, 1);
+	transition: width 2s;
 }
 .dog-animal-title {
     color: #548dd4;
@@ -334,6 +335,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(235, 166, 190, 1);
+	transition: width 2s;
 }
 .rabbit-animal-title{
 	color: #eba6be;
@@ -361,6 +363,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(117, 204, 84, 1);
+	transition: width 2s;
 }
 .dinosaur-animal-title{
 	color: #75cc54;
@@ -388,6 +391,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(251, 176, 59, 1);;
+	transition: width 2s;
 }
 .cat-animal-title{
 	color: #fbb03b;
@@ -442,6 +446,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(117, 204, 84, 1);
+	transition: width 2s;
 }
 .deer-animal-title{
 	color: #75cc54;
@@ -469,6 +474,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(49, 132, 155, 1);
+	transition: width 2s;
 }
 .fox-animal-title{
 	color: rgba(49, 132, 155, 1);
@@ -495,6 +501,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(49, 132, 155, 1);
+	transition: width 2s;
 }
 .koala-animal-title{
 	color: rgba(49, 132, 155, 1);
@@ -547,6 +554,8 @@ input:checked + label > .knob > i:before {
 	margin-left:1.5rem;
 }
 
+
+/***********about*************/
 input[id*="answer"]{
 	display:none;
 }
@@ -620,7 +629,7 @@ input#answer02 +label{
     box-shadow: none;
     width: 70%;
     height: 15rem;
-    padding-top: 4.5rem;
+    padding-top: 5.8rem;
 }
 
 input#answer02 +label em{
@@ -634,6 +643,11 @@ input#answer02 +label em{
     background-size: 100%;
     background-repeat: no-repeat;
     transition: all .35s;
+}
+
+input#answer02:checked+label{
+	color: #eb6519;
+		transition: all .35s;
 }
 input#answer02:checked+label em{
 	background-image: url(img/cat_blue.png);
@@ -653,7 +667,7 @@ display: block;
     box-shadow: none;
     width: 70%;
     height: 15rem;
-    padding-top: 2.3rem;
+    padding-top: 5.3rem;
     padding-left: 4rem;
 }
 
@@ -669,7 +683,10 @@ position: absolute;
     background-repeat: no-repeat;
     border-radius: 10rem;
 }
-
+input#answer03:checked+label{
+	color: #eb6519;
+		transition: all .35s;
+}
 input#answer03:checked+label em{
 	background-image: url(img/jocoding.jpg);
     background-size: 100%;
@@ -677,3 +694,4 @@ input#answer03:checked+label em{
 		transition: all .35s;
 }
 
+/**********explain************/
