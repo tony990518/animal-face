@@ -634,11 +634,10 @@ input#answer02 +label{
 
 input#answer02 +label em{
     position: absolute;
-    width: 2.8rem;
+    width: 2.6rem;
     height: 12.375rem;
     margin-top: -3.813rem;
     display: inline-block;
-    margin-left: -4.4rem;
     background-image: url(img/cat_orange.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -668,27 +667,27 @@ display: block;
     width: 70%;
     height: 15rem;
     padding-top: 5.3rem;
-    padding-left: 4rem;
+    padding-left: 1.5rem;
 }
 
 input#answer03 +label em{
-position: absolute;
-    width: 8.313rem;
-    height: 8rem;
-    margin-top: -1.5rem;
+    position: absolute;
+    width: 2.85rem;
+    height: 12.375rem;
+    margin-top: -2.813rem;
     display: inline-block;
-    margin-left: -8.563rem;
-    background-image: url(img/los2.png);
+    margin-left: -4.09rem;
+    background-image: url(img/dog_orange.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 10rem;
+    transition: all .35s;
 }
 input#answer03:checked+label{
 	color: #eb6519;
 		transition: all .35s;
 }
 input#answer03:checked+label em{
-	background-image: url(img/jocoding.jpg);
+	background-image: url(img/dog_blue.png);
     background-size: 100%;
     background-repeat: no-repeat;
 		transition: all .35s;
