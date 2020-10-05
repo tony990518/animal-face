@@ -492,7 +492,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     width: 100%;
-    background-color: rgba(49, 132, 155, 0.2);
+    background-color: rgb(225 150 234 / 0.2);
 }
 .rat-bar{
     position: absolute;
@@ -500,19 +500,19 @@ input:checked + label > .knob > i:before {
     left: 0;
     height: 2rem;
     border-radius: 10px;
-    background-color: rgba(49, 132, 155, 1);
+    background-color: #e196ea;
 	transition: width 2s;
 }
 .rat-animal-title{
-	color: rgba(49, 132, 155, 1);
+	color: #e196ea;
 	font-size: 2.0rem;
 }
 .rat-animal-celeb{
-	color: rgba(49, 132, 155, 1);
+	color: #e196ea;
 	font-size : 1.7rem;
 }
 
-.rat-box{
+.sheep-box{
     position: absolute;
     top: 0;
     left: 0;
@@ -573,7 +573,7 @@ input:checked + label > .knob > i:before {
     height: 2rem;
     border-radius: 10px;
     width: 100%;
-    background-color: rgba(49, 132, 155, 0.2);
+    background-color: rgb(123 139 255 / 0.2);
 }
 .koala-bar{
     position: absolute;
@@ -581,15 +581,15 @@ input:checked + label > .knob > i:before {
     left: 0;
     height: 2rem;
     border-radius: 10px;
-    background-color: rgba(49, 132, 155, 1);
+    background-color: rgb(123 139 255);
 	transition: width 2s;
 }
 .koala-animal-title{
-	color: rgba(49, 132, 155, 1);
+	color: rgb(123 139 255);
 	font-size: 2.0rem;
 }
 .koala-animal-celeb{
-	color: rgba(49, 132, 155, 1);
+	color: rgb(123 139 255);
 	font-size : 1.7rem;
 }
 
@@ -778,172 +778,3 @@ input#answer03:checked+label em{
 	padding:2rem;
 }
 /**********explain************/
-/*.slide input[id*="sl"]{
-	display:none;
-}
-.slide .slidewrap{
-	max-width:1200px;
-	margin : 0 auto;
-	overflow:hidden;
-}
-.slide .slidelist{
-	white-space:nowrap;
-	font-size:0;
-}
-.slide .slidelist >li{
-	display: inline-block;
-	vertical-align:middle;
-	width:100%;
-	transition: all 0.5s;
-}
-.slide .slidelist >li >a{
-	display:block;
-	position:relative;
-	    margin-left: -3rem;
-}
-
-.slide .slidelist >li >a img{
-	width:30%;
-}
-.slide .slidelist label{
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-    transform: translateY(-5o%);
-    padding: 50px;
-    cursor: pointer;
-    box-shadow: none;
-	margin-top: -4rem;
-}
-.slide .slidelist .left{
-	left:5%;
-	background:url('img/deer.png')center center / 30% no-repeat;
-}
-.slide .slidelist .right{
-	right:5%;
-	background:url('img/deer.png')center center / 30% no-repeat;
-}
-.slide .slide-control[class*="control"] {display:none;}
-
-
-
-.slide [id="sl1"]:checked ~ .slidewrap .slidelist > li{
-	transform:translateX(0%);
-}
-.slide [id="sl2"]:checked ~ .slidewrap .slidelist > li{
-	transform:translateX(-100%);
-}
-.slide [id="sl3"]:checked ~ .slidewrap .slidelist > li{
-	transform:translateX(-200%);
-}
-.slide1 input[id*="sl"]{
-	display:none;
-}
-.slide1 .slidewrap1{
-	max-width:1200px;
-	margin : 0 auto;
-	overflow:hidden;
-}
-.slide1 .slidelist1{
-	white-space:nowrap;
-	font-size:0;
-}
-.slide1 .slidelist1 >li{
-	display: inline-block;
-	vertical-align:middle;
-	width:100%;
-	transition: all 0.5s;
-}
-.slide1 .slidelist1 >li >a{
-	display:block;
-	position:relative;
-	    margin-left: -3rem;
-}
-
-.slide1 .slidelist1 >li >a img{
-	width:30%;
-}
-.slide1 .slidelist1 label{
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-    transform: translateY(-5o%);
-    padding: 50px;
-    cursor: pointer;
-    box-shadow: none;
-	margin-top: -4rem;
-}
-.slide1 .slidelist1 .left{
-	left:5%;
-	background:url('img/deer.png')center center / 30% no-repeat;
-}
-.slide1 .slidelist1 .right{
-	right:5%;
-	background:url('img/deer.png')center center / 30% no-repeat;
-}
-
-.slide1 [id="sl4"]:checked ~ .slidewrap1 .slidelist1 > li{
-	transform:translateX(0%);
-}
-.slide1 [id="sl5"]:checked ~ .slidewrap1 .slidelist1 > li{
-	transform:translateX(-100%);
-}
-.slide1 [id="sl6"]:checked ~ .slidewrap1 .slidelist1 > li{
-	transform:translateX(-200%);
-}
-
-.slide2 input[id*="sl"]{
-	display:none;
-}
-.slide2 .slidewrap2{
-	max-width:1200px;
-	margin : 0 auto;
-	overflow:hidden;
-}
-.slide2 .slidelist2{
-	white-space:nowrap;
-	font-size:0;
-}
-.slide2 .slidelist2 >li{
-	display: inline-block;
-	vertical-align:middle;
-	width:100%;
-	transition: all 0.5s;
-}
-.slide2 .slidelist2 >li >a{
-	display:block;
-	position:relative;
-	    margin-left: -3rem;
-}
-
-.slide2 .slidelist2 >li >a img{
-	width:30%;
-}
-.slide2 .slidelist2 label{
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-    transform: translateY(-5o%);
-    padding: 50px;
-    cursor: pointer;
-    box-shadow: none;
-	margin-top: -4rem;
-}
-.slide2 .slidelist2 .left{
-	left:5%;
-	background:url('img/deer.png')center center / 30% no-repeat;
-}
-.slide2 .slidelist2 .right{
-	right:5%;
-	background:url('img/deer.png')center center / 30% no-repeat;
-}
-
-.slide2 [id="sl7"]:checked ~ .slidewrap2 .slidelist2 > li{
-	transform:translateX(0%);
-}
-.slide2 [id="sl8"]:checked ~ .slidewrap2 .slidelist2 > li{
-	transform:translateX(-100%);
-}
-.slide2 [id="sl9"]:checked ~ .slidewrap2 .slidelist2 > li{
-	transform:translateX(-200%);
-}
