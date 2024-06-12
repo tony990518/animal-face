@@ -9,7 +9,38 @@
 
 <url>
   <loc>https://animalfacetw.com/</loc>
-  <lastmod>2020-08-06T15:55:00+00:00</lastmod>
+  <lastmod>2024-06-12T05:36:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://animalfacetw.com/index.html</loc>
+  <lastmod>2024-06-12T05:36:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://animalfacetw.com/explain.html</loc>
+  <lastmod>2024-06-12T05:36:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://animalfacetw.com/about.html</loc>
+  <lastmod>2024-06-12T05:36:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://animalfacetw.com/blog.html</loc>
+  <lastmod>2024-06-12T05:36:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://animalfacetw.com/animal.privacy.html</loc>
+  <lastmod>2024-06-12T05:36:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://animalfacetw.com/privacy.html</loc>
+  <lastmod>2024-06-12T05:36:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
